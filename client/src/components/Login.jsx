@@ -25,6 +25,10 @@ const Login = () => {
     setSignUp({ ...signUp, [e.target.name]: e.target.value });  //yahan pe old values ...signup me hoga and e.target.name ab as a key kaam krega kyuki hme values pass karwani hai object me 
   };
 
+
+  const signupUser =()=>{
+    
+  }
   return (
     <>
       <Box //box is a replacement of div
@@ -117,7 +121,7 @@ const Login = () => {
             />
             <Button
               variant="contained"
-              style={{ marginTop: "20px", background: "#FB641B" }}
+              style={{ marginTop: "20px", background: "#FB641B" }} onClick={()=>signupUser()}
             >
               SignUp
             </Button>

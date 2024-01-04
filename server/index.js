@@ -8,7 +8,7 @@ const app = express();
 
 app.use("/", router);
 
-const PORT = 8000;
+const PORT = 9000;
 app.listen(PORT, () => console.log(`server is running on PORT ${PORT}`));
 
 const USERNAME = process.env.DB_USERNAME;
